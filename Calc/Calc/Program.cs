@@ -1,18 +1,15 @@
 ﻿using System;
 using System.IO;
 
-namespace Calc
+namespace ConsoleApp2
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static string notation(string input_string)
         {
             string[] output_string = new string[0];
             string[] stack = new string[0];//стек
             List<string> nums = new List<string>();
-            string input_string;
-            Console.WriteLine("Введите значения:");
-            input_string=Console.ReadLine();
             int k = 0;
             for (int i = 0; i < input_string.Length; i++)
             {
@@ -25,7 +22,7 @@ namespace Calc
                 }
                 if (Char.IsDigit(input_string[i]))
                 {
-                        while (i < input_string.Length && Char.IsDigit(input_string[i]))
+                    while (i < input_string.Length && Char.IsDigit(input_string[i]))
                         temp += input_string[i++].ToString();
                     i--;
                     Array.Resize(ref output_string, output_string.Length + 1);
@@ -34,12 +31,12 @@ namespace Calc
                 if (input_string[i] == '+' || input_string[i] == '-')
                 {
                 m:
-                    if (stack.Length != 0) 
+                    if (stack.Length != 0)
                     {
                         if (stack[stack.Length - 1] == "(")
                         {
                             Array.Resize(ref stack, stack.Length + 1);
-                         stack[stack.Length - 1] = input_string[i].ToString();                           
+                            stack[stack.Length - 1] = input_string[i].ToString();
                         }
                         else
                         {
@@ -67,7 +64,7 @@ namespace Calc
                             Array.Resize(ref stack, stack.Length + 1);
                             stack[stack.Length - 1] = input_string[i].ToString();
                         }
-                        else  
+                        else
                         {
                             Array.Resize(ref output_string, output_string.Length + 1);
                             output_string[output_string.Length - 1] = stack[stack.Length - 1];
@@ -113,9 +110,16 @@ namespace Calc
                 else
                     t += output_string[i];
             Console.WriteLine(t);//ввывод записанных значений
-            string[] mas = t.Split(' ');
+            return t;
+
+        }
+
+        public static double calculation(string OPZ_String)
+        {
+            List<string> nums = new List<string>();
+            string[] mas = OPZ_String.Split(' ');
             string temp_string;
-            
+
             for (int i = 0; i < mas.Length; i++)
                 switch (mas[i])
                 {
@@ -157,7 +161,14 @@ namespace Calc
                         i -= 2;
                         break;
                 }
-            double result = double.Parse(mas[0]);
+            return double.Parse(mas[0]);
+        }
+        static void Main(string[] args)
+        {
+            string input_string;
+            Console.WriteLine("Введите значения:");
+            input_string = Console.ReadLine();
+            double result = calculation(notation(input_string));
             Console.WriteLine("Ответ:" + result);
         }
     }

@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\РГРТУ\\Аникеев\\Calc\\Calc\\Calc.csproj",
+      "projectUniqueName": "E:\\РГРТУ\\Dev\\Calc\\Calc\\Calc.csproj",
       "projectName": "Calc",
-      "projectPath": "E:\\РГРТУ\\Аникеев\\Calc\\Calc\\Calc.csproj",
+      "projectPath": "E:\\РГРТУ\\Dev\\Calc\\Calc\\Calc.csproj",
       "packagesPath": "C:\\Users\\eleiy\\.nuget\\packages\\",
-      "outputPath": "E:\\РГРТУ\\Аникеев\\Calc\\Calc\\obj\\",
+      "outputPath": "E:\\РГРТУ\\Dev\\Calc\\Calc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program\\Microsoft Visual Studio\\Shared\\NuGetPackages",

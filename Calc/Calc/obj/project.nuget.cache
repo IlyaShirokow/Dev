@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bpXyeW38aS6EHvm4VH3P493oMbriIWfN9EH9swhPJkgVZS9a1o8dBiPJzbTZmXh3tNgd0DIBC76UW4+fEsGi8g==",
+  "dgSpecHash": "DyNQWak/2q8DKe5YnD9E/KqHvW4+bEtLwnpxyey6ZhMLZ9nwZRakg3b4A31Sodi4JtUReaziuKuDIWRWPN+HoQ==",
   "success": true,
-  "projectFilePath": "E:\\РГРТУ\\Аникеев\\Calc\\Calc\\Calc.csproj",
+  "projectFilePath": "E:\\РГРТУ\\Dev\\Calc\\Calc\\Calc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
