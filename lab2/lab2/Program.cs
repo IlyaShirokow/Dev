@@ -47,7 +47,7 @@ namespace JsonAddAndUpdate
             {
                 var jObject = JObject.Parse(json);
                 JArray buyerArrary = (JArray)jObject["buyer"];
-                Console.Write("Введите ID название организации для изменения её данных : ");
+                Console.Write("Введите ID организации для изменения её данных : ");
                 var buyerId = Convert.ToInt32(Console.ReadLine());
 
                 if (buyerId > 0)
@@ -139,8 +139,147 @@ namespace JsonAddAndUpdate
                         }
 
                     }
-                    //Console.WriteLine("Phone Number :" + jObject["phoneNumber"].ToString());
-                    //Console.WriteLine("Role :" + jObject["role"].ToString());
+
+
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+        private void AddProd()
+        {
+            Console.WriteLine("Введите ID продукта: ");
+            var prodId = Console.ReadLine();
+            Console.WriteLine("\nВведите название продукта : ");
+            var prodName = Console.ReadLine();
+            Console.WriteLine("\nВведите цену : ");
+            var prodPrice = Console.ReadLine();
+            Console.WriteLine("\nВведите ID покупателя: ");
+            var buyerId = Console.ReadLine();
+
+            var newProdMember = "{ 'prodid': " + prodId + ", 'prodname': '" + prodName + "', 'prodprice': '" + prodPrice + "', 'buyerid': '" + buyerId + "'}";
+            try
+            {
+                var json = File.ReadAllText(jsonFile);
+                var jsonObj = JObject.Parse(json);
+                var prodArrary = jsonObj.GetValue("prod") as JArray;
+                var newProd = JObject.Parse(newProdMember);
+                prodArrary.Add(newProd);
+
+                jsonObj["prod"] = prodArrary;
+                string newJsonResult = Newtonsoft.Json.JsonConvert.SerializeObject(jsonObj, Newtonsoft.Json.Formatting.Indented);
+                File.WriteAllText(jsonFile, newJsonResult);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Ошибка добавления : " + ex.Message.ToString());
+            }
+        }
+
+        private void UpdateProd()
+        {
+            string json = File.ReadAllText(jsonFile);
+
+            try
+            {
+                var jObject = JObject.Parse(json);
+                JArray prodArrary = (JArray)jObject["prod"];
+                Console.Write("Введите ID продуктов для изменения данных : ");
+                var prodId = Convert.ToInt32(Console.ReadLine());
+
+                if (prodId > 0)
+                {
+                    Console.Write("Введите новое название продуктов: ");
+                    var prodName = Convert.ToString(Console.ReadLine());
+                    Console.WriteLine("\nВведите стоимость : ");
+                    var prodPrice = Convert.ToString(Console.ReadLine());
+                    Console.WriteLine("\nВведите id покупателя : ");
+                    var buyerId = Convert.ToString(Console.ReadLine());
+
+                    foreach (var buyer in prodArrary.Where(obj => obj["prodid"].Value<int>() == prodId))
+                    {
+                        buyer["prodname"] = !string.IsNullOrEmpty(prodName) ? prodName : "";
+                        buyer["prodprice"] = !string.IsNullOrEmpty(prodPrice) ? prodPrice : "";
+                        buyer["buyerid"] = !string.IsNullOrEmpty(buyerId) ? buyerId : "";
+                    }
+
+                    jObject["prod"] = prodArrary;
+                    string output = Newtonsoft.Json.JsonConvert.SerializeObject(jObject, Newtonsoft.Json.Formatting.Indented);
+                    File.WriteAllText(jsonFile, output);
+                }
+                else
+                {
+                    Console.Write("Неверный ID продукта попробуйте другой!");
+                    UpdateBuyer();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine("Ошибка обновления : " + ex.Message.ToString());
+            }
+        }
+
+        private void DeleteProd()
+        {
+            var json = File.ReadAllText(jsonFile);
+            try
+            {
+                var jObject = JObject.Parse(json);
+                JArray prodArrary = (JArray)jObject["prod"];
+                Console.Write("Введите ID продукта уоторого хотите удалить : ");
+                var prodId = Convert.ToInt32(Console.ReadLine());
+
+                if (prodId > 0)
+                {
+                    var prodName = string.Empty;
+                    var prodToDeleted = prodArrary.FirstOrDefault(obj => obj["prodid"].Value<int>() == prodId);
+
+                    prodArrary.Remove(prodToDeleted);
+
+                    string output = Newtonsoft.Json.JsonConvert.SerializeObject(jObject, Newtonsoft.Json.Formatting.Indented);
+                    File.WriteAllText(jsonFile, output);
+                }
+                else
+                {
+                    Console.Write("Неверный ID организации попробуйте другой!");
+                    UpdateBuyer();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        private void GetProdDetails()
+        {
+            var json = File.ReadAllText(jsonFile);
+            try
+            {
+                var jObject = JObject.Parse(json);
+
+                if (jObject != null)
+                {
+                    Console.WriteLine("ID :" + jObject["id"].ToString());
+                    Console.WriteLine("Name :" + jObject["name"].ToString());
+                    JArray buyerArrary = (JArray)jObject["prod"];
+                    if (buyerArrary != null)
+                    {
+                        foreach (var item in buyerArrary)
+                        {
+                            Console.WriteLine("prod Id :" + item["prodid"]);
+                            Console.WriteLine("prod Name :" + item["prodname"].ToString());
+                            Console.WriteLine("prod Price :" + item["prodprice"].ToString());
+                            Console.WriteLine("buyer ID :" + item["buyerid"].ToString());
+                        }
+
+                    }
+
 
                 }
             }
@@ -153,9 +292,10 @@ namespace JsonAddAndUpdate
         static void Main(string[] args)
         {
             Program objProgram = new JsonAddAndUpdate.Program();
-
-            Console.WriteLine("Введите цифру что бы воспользоваться опциями : 1 - Добавить, 2 - Обновить, 3 - Удалить, 4 - Просмотреть \n");
             objProgram.GetBuyerDetails();
+            objProgram.GetProdDetails();
+            Console.WriteLine("\nВведите цифру что бы воспользоваться опциями : 1 - Добавить в сущность покупатели, 2 - Обновить сущность покупатели, 3 - Удалить из сущности покупатели, 4 - Просмотреть в сущности покупатели, 5 - Добавить в сущность продукты, 6 - Обновить сущность продукты, 7 - Удалить из сущности продукты, 8 - Просмотреть сущность продукты\n");
+            
             var option = Console.ReadLine();
             switch (option)
             {
@@ -170,6 +310,18 @@ namespace JsonAddAndUpdate
                     break;
                 case "4":
                     objProgram.GetBuyerDetails();
+                    break;
+                case "5":
+                    objProgram.AddProd();
+                    break;
+                case "6":
+                    objProgram.UpdateProd();
+                    break;
+                case "7":
+                    objProgram.DeleteProd();
+                    break;
+                case "8":
+                    objProgram.GetProdDetails();
                     break;
                 default:
                     Main(null);

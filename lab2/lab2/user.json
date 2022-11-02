@@ -1,6 +1,6 @@
 {
   "id": 1,
-  "name": "buyer",
+  "name": "lab2",
   "buyer": [
     {
       "buyerid": 1,
@@ -11,8 +11,8 @@
     {
       "buyerid": 2,
       "buyername": "Перекрёсток",
-      "buyerstreet": "Ленина",
-      "buyerhome": "3"
+      "buyerstreet": "Магистральная",
+      "buyerhome": "23"
     },
     {
       "buyerid": 3,
@@ -25,6 +25,32 @@
       "buyername": "Дикси",
       "buyerstreet": "Октябрьская",
       "buyerhome": "4"
+    }
+  ],
+  "prod": [
+    {
+      "prodid": 1,
+      "prodname": "Бананы",
+      "prodprice": "300",
+      "buyerid": "3"
+    },
+    {
+      "prodid": 2,
+      "prodname": "Апельсины",
+      "prodprice": "360",
+      "buyerid": 3
+    },
+    {
+      "prodid": 3,
+      "prodname": "Мандарины",
+      "prodprice": "500",
+      "buyerid": 3
+    },
+    {
+      "prodid": 4,
+      "prodname": "Яблоки",
+      "prodprice": "100",
+      "buyerid": 3
     }
   ]
 }
