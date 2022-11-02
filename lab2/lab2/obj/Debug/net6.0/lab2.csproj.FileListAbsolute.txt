@@ -1,0 +1,17 @@
+E:\РГРТУ\Dev\lab2\lab2\bin\Debug\net6.0\lab2.exe
+E:\РГРТУ\Dev\lab2\lab2\bin\Debug\net6.0\lab2.deps.json
+E:\РГРТУ\Dev\lab2\lab2\bin\Debug\net6.0\lab2.runtimeconfig.json
+E:\РГРТУ\Dev\lab2\lab2\bin\Debug\net6.0\lab2.dll
+E:\РГРТУ\Dev\lab2\lab2\bin\Debug\net6.0\lab2.pdb
+E:\РГРТУ\Dev\lab2\lab2\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\РГРТУ\Dev\lab2\lab2\obj\Debug\net6.0\lab2.csproj.AssemblyReference.cache
+E:\РГРТУ\Dev\lab2\lab2\obj\Debug\net6.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+E:\РГРТУ\Dev\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfoInputs.cache
+E:\РГРТУ\Dev\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfo.cs
+E:\РГРТУ\Dev\lab2\lab2\obj\Debug\net6.0\lab2.csproj.CoreCompileInputs.cache
+E:\РГРТУ\Dev\lab2\lab2\obj\Debug\net6.0\lab2.csproj.CopyComplete
+E:\РГРТУ\Dev\lab2\lab2\obj\Debug\net6.0\lab2.dll
+E:\РГРТУ\Dev\lab2\lab2\obj\Debug\net6.0\refint\lab2.dll
+E:\РГРТУ\Dev\lab2\lab2\obj\Debug\net6.0\lab2.pdb
+E:\РГРТУ\Dev\lab2\lab2\obj\Debug\net6.0\lab2.genruntimeconfig.cache
+E:\РГРТУ\Dev\lab2\lab2\obj\Debug\net6.0\ref\lab2.dll
