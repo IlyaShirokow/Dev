@@ -3,20 +3,28 @@
   "name": "buyer",
   "buyer": [
     {
-      "buyerid": 77,
-      "buyername": "Mind Tree LTD"
+      "buyerid": 1,
+      "buyername": "Пятёрочка",
+      "buyerstreet": "Стройкова",
+      "buyerhome": "2"
     },
     {
-      "buyerid": 89,
-      "buyername": "TCS"
+      "buyerid": 2,
+      "buyername": "Перекрёсток",
+      "buyerstreet": "Ленина",
+      "buyerhome": "3"
     },
     {
-      "buyerid": 22,
-      "buyername": "Hello World LTD"
+      "buyerid": 3,
+      "buyername": "Магнит",
+      "buyerstreet": "Лермонтова",
+      "buyerhome": "1"
     },
     {
       "buyerid": 4,
-      "buyername": "Sahka"
+      "buyername": "Дикси",
+      "buyerstreet": "Октябрьская",
+      "buyerhome": "4"
     }
   ]
 }
