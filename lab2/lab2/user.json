@@ -1,29 +1,22 @@
 {
-  "id": 123,
-  "name": "Mukesh Kumar",
-  "address": {
-    "street": "El Camino Real",
-    "city": "New Delhi",
-    "zipcode": 95014
-  },
-  "experiences": [
+  "id": 1,
+  "name": "buyer",
+  "buyer": [
     {
-      "companyid": 77,
-      "companyname": "Mind Tree LTD"
+      "buyerid": 77,
+      "buyername": "Mind Tree LTD"
     },
     {
-      "companyid": 89,
-      "companyname": "TCS"
+      "buyerid": 89,
+      "buyername": "TCS"
     },
     {
-      "companyid": 22,
-      "companyname": "Hello World LTD"
+      "buyerid": 22,
+      "buyername": "Hello World LTD"
     },
     {
-      "companyid": 4,
-      "companyname": "Sahka"
+      "buyerid": 4,
+      "buyername": "Sahka"
     }
-  ],
-  "phoneNumber": 9988664422,
-  "role": "Developer"
+  ]
 }

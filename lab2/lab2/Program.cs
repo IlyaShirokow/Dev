@@ -8,94 +8,94 @@ namespace JsonAddAndUpdate
     class Program
     {
         private string jsonFile = @"E:\РГРТУ\Dev\lab2\lab2\user.json";
-        private void AddCompany()
+        private void AddBuyer()
         {
-            Console.WriteLine("Enter Company ID : ");
-            var companyId = Console.ReadLine();
-            Console.WriteLine("\nEnter Company Name : ");
-            var companyName = Console.ReadLine();
+            Console.WriteLine("Введите ID покупателя: ");
+            var buyerId = Console.ReadLine();
+            Console.WriteLine("\nВведите имя покупателя : ");
+            var buyerName = Console.ReadLine();
 
-            var newCompanyMember = "{ 'companyid': " + companyId + ", 'companyname': '" + companyName + "'}";
+            var newBuyerMember = "{ 'buyerid': " + buyerId + ", 'buyername': '" + buyerName + "'}";
             try
             {
                 var json = File.ReadAllText(jsonFile);
                 var jsonObj = JObject.Parse(json);
-                var experienceArrary = jsonObj.GetValue("experiences") as JArray;
-                var newCompany = JObject.Parse(newCompanyMember);
-                experienceArrary.Add(newCompany);
+                var buyerArrary = jsonObj.GetValue("buyer") as JArray;
+                var newBuyer = JObject.Parse(newBuyerMember);
+                buyerArrary.Add(newBuyer);
 
-                jsonObj["experiences"] = experienceArrary;
+                jsonObj["buyer"] = buyerArrary;
                 string newJsonResult = Newtonsoft.Json.JsonConvert.SerializeObject(jsonObj, Newtonsoft.Json.Formatting.Indented);
                 File.WriteAllText(jsonFile, newJsonResult);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Add Error : " + ex.Message.ToString());
+                Console.WriteLine("Ошибка добавления : " + ex.Message.ToString());
             }
         }
 
-        private void UpdateCompany()
+        private void UpdateBuyer()
         {
             string json = File.ReadAllText(jsonFile);
 
             try
             {
                 var jObject = JObject.Parse(json);
-                JArray experiencesArrary = (JArray)jObject["experiences"];
-                Console.Write("Enter Company ID to Update Company : ");
-                var companyId = Convert.ToInt32(Console.ReadLine());
+                JArray buyerArrary = (JArray)jObject["buyer"];
+                Console.Write("Введите ID покупателя для изменения его данных : ");
+                var buyerId = Convert.ToInt32(Console.ReadLine());
 
-                if (companyId > 0)
+                if (buyerId > 0)
                 {
-                    Console.Write("Enter new company name : ");
-                    var companyName = Convert.ToString(Console.ReadLine());
+                    Console.Write("Введите новое имя покупателя: ");
+                    var buyerName = Convert.ToString(Console.ReadLine());
 
-                    foreach (var company in experiencesArrary.Where(obj => obj["companyid"].Value<int>() == companyId))
+                    foreach (var buyer in buyerArrary.Where(obj => obj["buyerid"].Value<int>() == buyerId))
                     {
-                        company["companyname"] = !string.IsNullOrEmpty(companyName) ? companyName : "";
+                        buyer["buyername"] = !string.IsNullOrEmpty(buyerName) ? buyerName : "";
                     }
 
-                    jObject["experiences"] = experiencesArrary;
+                    jObject["buyer"] = buyerArrary;
                     string output = Newtonsoft.Json.JsonConvert.SerializeObject(jObject, Newtonsoft.Json.Formatting.Indented);
                     File.WriteAllText(jsonFile, output);
                 }
                 else
                 {
                     Console.Write("Invalid Company ID, Try Again!");
-                    UpdateCompany();
+                    UpdateBuyer();
                 }
             }
             catch (Exception ex)
             {
 
-                Console.WriteLine("Update Error : " + ex.Message.ToString());
+                Console.WriteLine("Ошибка обновления : " + ex.Message.ToString());
             }
         }
 
-        private void DeleteCompany()
+        private void DeleteBuyer()
         {
             var json = File.ReadAllText(jsonFile);
             try
             {
                 var jObject = JObject.Parse(json);
-                JArray experiencesArrary = (JArray)jObject["experiences"];
-                Console.Write("Enter Company ID to Delete Company : ");
-                var companyId = Convert.ToInt32(Console.ReadLine());
+                JArray buyerArrary = (JArray)jObject["buyer"];
+                Console.Write("Введите ID покупателя которого хотите удалить : ");
+                var buyerId = Convert.ToInt32(Console.ReadLine());
 
-                if (companyId > 0)
+                if (buyerId > 0)
                 {
-                    var companyName = string.Empty;
-                    var companyToDeleted = experiencesArrary.FirstOrDefault(obj => obj["companyid"].Value<int>() == companyId);
+                    var buyerName = string.Empty;
+                    var buyerToDeleted = buyerArrary.FirstOrDefault(obj => obj["buyerid"].Value<int>() == buyerId);
 
-                    experiencesArrary.Remove(companyToDeleted);
+                    buyerArrary.Remove(buyerToDeleted);
 
                     string output = Newtonsoft.Json.JsonConvert.SerializeObject(jObject, Newtonsoft.Json.Formatting.Indented);
                     File.WriteAllText(jsonFile, output);
                 }
                 else
                 {
-                    Console.Write("Invalid Company ID, Try Again!");
-                    UpdateCompany();
+                    Console.Write("Неверный ID покупателя попробуйте другой!");
+                    UpdateBuyer();
                 }
             }
             catch (Exception)
@@ -105,7 +105,7 @@ namespace JsonAddAndUpdate
             }
         }
 
-        private void GetUserDetails()
+        private void GetBuyerDetails()
         {
             var json = File.ReadAllText(jsonFile);
             try
@@ -116,23 +116,18 @@ namespace JsonAddAndUpdate
                 {
                     Console.WriteLine("ID :" + jObject["id"].ToString());
                     Console.WriteLine("Name :" + jObject["name"].ToString());
-
-                    var address = jObject["address"];
-                    Console.WriteLine("Street :" + address["street"].ToString());
-                    Console.WriteLine("City :" + address["city"].ToString());
-                    Console.WriteLine("Zipcode :" + address["zipcode"]);
-                    JArray experiencesArrary = (JArray)jObject["experiences"];
-                    if (experiencesArrary != null)
+                    JArray buyerArrary = (JArray)jObject["buyer"];
+                    if (buyerArrary != null)
                     {
-                        foreach (var item in experiencesArrary)
+                        foreach (var item in buyerArrary)
                         {
-                            Console.WriteLine("company Id :" + item["companyid"]);
-                            Console.WriteLine("company Name :" + item["companyname"].ToString());
+                            Console.WriteLine("buyer Id :" + item["buyerid"]);
+                            Console.WriteLine("buyer Name :" + item["buyername"].ToString());
                         }
 
                     }
-                    Console.WriteLine("Phone Number :" + jObject["phoneNumber"].ToString());
-                    Console.WriteLine("Role :" + jObject["role"].ToString());
+                    //Console.WriteLine("Phone Number :" + jObject["phoneNumber"].ToString());
+                    //Console.WriteLine("Role :" + jObject["role"].ToString());
 
                 }
             }
@@ -146,21 +141,22 @@ namespace JsonAddAndUpdate
         {
             Program objProgram = new JsonAddAndUpdate.Program();
 
-            Console.WriteLine("Choose Your Options : 1 - Add, 2 - Update, 3 - Delete, 4 - Select \n");
+            Console.WriteLine("Введите цифру что бы воспользоваться опциями : 1 - Добавить, 2 - Обновить, 3 - Удалить, 4 - Просмотреть \n");
+            objProgram.GetBuyerDetails();
             var option = Console.ReadLine();
             switch (option)
             {
                 case "1":
-                    objProgram.AddCompany();
+                    objProgram.AddBuyer();
                     break;
                 case "2":
-                    objProgram.UpdateCompany();
+                    objProgram.UpdateBuyer();
                     break;
                 case "3":
-                    objProgram.DeleteCompany();
+                    objProgram.DeleteBuyer();
                     break;
                 case "4":
-                    objProgram.GetUserDetails();
+                    objProgram.GetBuyerDetails();
                     break;
                 default:
                     Main(null);
