@@ -8,7 +8,7 @@ namespace Staff
 {
     internal class Staff
     {
-        public int IDStaff { get; set; }
+        public int Id { get; set; }
 
         public string Surname { get; set; }
 

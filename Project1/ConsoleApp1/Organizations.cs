@@ -8,8 +8,8 @@ namespace Organization
 {
     internal class Organization
     {
-        public int IDOrganizations { get; set; }
-        public string Organizations { get; set; }
-        public string OrganizationOfAcceptanceOfGoods { get; set; }
+        public int Id { get; set; }
+        public string NameOrganization { get; set; }
+        public string DirectorNumber { get; set; }
     }
 }

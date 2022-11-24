@@ -9,8 +9,8 @@ namespace Address
 {
     public class Address
     {
-        public int IDAddress { get; set; }
+        public int Id { get; set; }
         public string Adddress { get; set; }
-        public int NumberOfOrdersAtTheAdderess { get; set; }
+        public int NumberOfOrganizations { get; set; }
     }
 }

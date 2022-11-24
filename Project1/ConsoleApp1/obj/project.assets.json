@@ -3583,11 +3583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\РГРТУ\\Dev\\Project1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "E:\\РГРТУ\\Dev\\Project1\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "E:\\РГРТУ\\Dev\\Project1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "E:\\РГРТУ\\Dev\\Project1\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\eleiy\\.nuget\\packages\\",
-      "outputPath": "E:\\РГРТУ\\Dev\\Project1\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "E:\\РГРТУ\\Dev\\Project1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -8,7 +8,7 @@ namespace Automobiles
 {
 internal class Automobiles
     {
-    public int IDAuto { get; set; }
+    public int Id { get; set; }
     public string Auto { get; set; }
     public string Carnumber { get; set; }
     public string Condition { get; set; }

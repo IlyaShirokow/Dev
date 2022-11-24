@@ -8,7 +8,7 @@ namespace Invoices
 {
     internal class Invoices
     {
-        public int IDInvoice { get; set; }
+        public int Id { get; set; }
         public string Invoice { get; set; }
         public string Descrption { get; set; }
     }
