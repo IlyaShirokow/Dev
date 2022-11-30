@@ -1,0 +1,70 @@
+[
+  {
+    "Id": 1,
+    "NameOrganization": "Pyatorochka",
+    "DirectorNumber": "89209654114",
+    "OrderID": 1,
+    "Order": {
+      "Id": 1,
+      "ProductId": 1,
+      "AutoId": 1,
+      "StaffId": 1,
+      "AdressId": 1,
+      "OrganizationsId": 1,
+      "PhoneNumber": "89404147447",
+      "Email": "fefeff@gmail.com",
+      "InvoiceId": 2
+    }
+  },
+  {
+    "Id": 2,
+    "NameOrganization": "Magnit",
+    "DirectorNumber": "89105254114",
+    "OrderID": 2,
+    "Order": {
+      "Id": 2,
+      "ProductId": 2,
+      "AutoId": 2,
+      "StaffId": 2,
+      "AdressId": 2,
+      "OrganizationsId": 2,
+      "PhoneNumber": "89502544123",
+      "Email": "rrg@gmail.com",
+      "InvoiceId": 1
+    }
+  },
+  {
+    "Id": 3,
+    "NameOrganization": "Perekryostok",
+    "DirectorNumber": "89208456556",
+    "OrderID": 3,
+    "Order": {
+      "Id": 3,
+      "ProductId": 3,
+      "AutoId": 3,
+      "StaffId": 3,
+      "AdressId": 3,
+      "OrganizationsId": 3,
+      "PhoneNumber": "89501455474",
+      "Email": "ff@gmail.com",
+      "InvoiceId": 2
+    }
+  },
+  {
+    "Id": 4,
+    "NameOrganization": "Diksi",
+    "DirectorNumber": "89155144556",
+    "OrderID": 4,
+    "Order": {
+      "Id": 4,
+      "ProductId": 4,
+      "AutoId": 4,
+      "StaffId": 4,
+      "AdressId": 4,
+      "OrganizationsId": 4,
+      "PhoneNumber": "89602587414",
+      "Email": "ss@gmail.com",
+      "InvoiceId": 1
+    }
+  }
+]
