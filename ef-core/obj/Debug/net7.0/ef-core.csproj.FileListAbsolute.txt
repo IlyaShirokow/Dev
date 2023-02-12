@@ -1,0 +1,142 @@
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ef-core.csproj.AssemblyReference.cache
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ef-core.GeneratedMSBuildEditorConfig.editorconfig
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ef-core.AssemblyInfoInputs.cache
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ef-core.AssemblyInfo.cs
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ef-core.csproj.CoreCompileInputs.cache
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ef-core.MvcApplicationPartsAssemblyInfo.cs
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ef-core.MvcApplicationPartsAssemblyInfo.cache
+D:\радик\у пр\ef-core\bin\Debug\net7.0\appsettings.Development.json
+D:\радик\у пр\ef-core\bin\Debug\net7.0\appsettings.json
+D:\радик\у пр\ef-core\bin\Debug\net7.0\ef-core.exe
+D:\радик\у пр\ef-core\bin\Debug\net7.0\ef-core.deps.json
+D:\радик\у пр\ef-core\bin\Debug\net7.0\ef-core.runtimeconfig.json
+D:\радик\у пр\ef-core\bin\Debug\net7.0\ef-core.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\ef-core.pdb
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Azure.Core.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Azure.Identity.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\System.Memory.Data.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\радик\у пр\ef-core\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\радик\у пр\ef-core\obj\Debug\net7.0\staticwebassets\msbuild.ef-core.Microsoft.AspNetCore.StaticWebAssets.props
+D:\радик\у пр\ef-core\obj\Debug\net7.0\staticwebassets\msbuild.build.ef-core.props
+D:\радик\у пр\ef-core\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ef-core.props
+D:\радик\у пр\ef-core\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ef-core.props
+D:\радик\у пр\ef-core\obj\Debug\net7.0\staticwebassets.pack.json
+D:\радик\у пр\ef-core\obj\Debug\net7.0\staticwebassets.build.json
+D:\радик\у пр\ef-core\obj\Debug\net7.0\staticwebassets.development.json
+D:\радик\у пр\ef-core\obj\Debug\net7.0\scopedcss\bundle\ef-core.styles.css
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ef-core.csproj.CopyComplete
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ef-core.dll
+D:\радик\у пр\ef-core\obj\Debug\net7.0\refint\ef-core.dll
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ef-core.pdb
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ef-core.genruntimeconfig.cache
+D:\радик\у пр\ef-core\obj\Debug\net7.0\ref\ef-core.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\appsettings.Development.json
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\appsettings.json
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\ef-core.exe
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\ef-core.deps.json
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\ef-core.runtimeconfig.json
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\ef-core.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\ef-core.pdb
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Azure.Core.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Azure.Identity.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\System.Memory.Data.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Download\ef-core\ef-core\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ef-core.csproj.AssemblyReference.cache
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ef-core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ef-core.AssemblyInfoInputs.cache
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ef-core.AssemblyInfo.cs
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ef-core.csproj.CoreCompileInputs.cache
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ef-core.MvcApplicationPartsAssemblyInfo.cs
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ef-core.MvcApplicationPartsAssemblyInfo.cache
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\staticwebassets\msbuild.ef-core.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\staticwebassets\msbuild.build.ef-core.props
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ef-core.props
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ef-core.props
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\staticwebassets.build.json
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\staticwebassets.development.json
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\scopedcss\bundle\ef-core.styles.css
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ef-core.csproj.CopyComplete
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ef-core.dll
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\refint\ef-core.dll
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ef-core.pdb
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ef-core.genruntimeconfig.cache
+E:\Download\ef-core\ef-core\obj\Debug\net7.0\ref\ef-core.dll
