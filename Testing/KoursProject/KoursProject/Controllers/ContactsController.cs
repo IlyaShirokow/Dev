@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using KoursProject.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace KoursProject.Controllers
 {
@@ -8,5 +9,16 @@ namespace KoursProject.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Check(Contact contact)
+        {
+            if (ModelState.IsValid) 
+            {
+                return Redirect("/");
+            }
+            return View("Index");
+        }
     }
+
 }

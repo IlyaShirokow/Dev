@@ -37,13 +37,58 @@ main {
     padding: 15px 10%;
     margin: 50px 0;
 }
-
-footer {
-    margin-top: 150px;
-    text-align: center;
+main label {
+    padding: 10px;
     width: 100%;
-    padding: 25px 0;
-    color: #fff;
-    background: #333;
-    border-top: 2px solid #000;
+    margin-top: 10px;
+    display: block;
 }
+
+main imput:not([type="submit"]) {
+    width: 90%;
+    padding: 10px 14px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    outline: none;
+    margin-top: 7px;
+}
+
+    main input:not([type="submit"]):focus{
+        border: 1px solid #ff0000;
+    }
+
+    main input[type="submit"]{
+        width: 40%;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 0;
+        margin-top: 7px;
+        background: #ff6a00;
+        font-weight: bold;
+        color: #833904;
+        cursor: pointer;
+    }
+
+    main input[type="submit"]:hover {
+        background: #d96614;
+    }
+
+    main form span {
+        color: #ff0000;
+        font-weight: bold;
+        display: block;
+        margin: 5px 0;
+    }
+
+    footer {
+        margin-top: 150px;
+        text-align: center;
+        width: 100%;
+        padding: 25px 0;
+        color: #fff;
+        background: #333;
+        border-top: 2px solid #000;
+    }
