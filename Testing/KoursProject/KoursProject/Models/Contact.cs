@@ -18,7 +18,7 @@ namespace KoursProject.Models
         [Required(ErrorMessage = "Вам нужно ввести почту")]
         public string Email { get; set; }
         [Display(Name = "Введите сообщение")]
-        [StringLength(30, ErrorMessage = "Текст менее 30 символов")]//test
+        [StringLength(30, ErrorMessage = "Текст менее 30 символов")]
         [Required(ErrorMessage = "Вам нужно ввести сообщение")]
         public string Message { get; set; }
 
