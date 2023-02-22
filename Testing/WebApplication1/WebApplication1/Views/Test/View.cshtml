@@ -1,0 +1,37 @@
+﻿@model WebApplication1.Models.UpdateTestViewModel
+
+@{
+}
+
+<h1>Edit Test</h1>
+<form method="post" action="View">
+    <div class="mb-3">
+        <label for="" class="form-label">Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="Name">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Surname</label>
+        <input type="text" class="form-control" asp-for="Surname">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Email Address</label>
+        <input type="email" class="form-control" asp-for="Email">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Age</label>
+        <input type="number" class="form-control" asp-for="Age">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Date Of Birtch</label>
+        <input type="date" class="form-control" asp-for="DateOfBirtch">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+    <button type="submit" class="btn btn-danger"
+    asp-action="Delete"
+    asp-controller="Test">Delete</button>
+</form>

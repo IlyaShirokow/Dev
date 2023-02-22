@@ -1,0 +1,129 @@
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/appsettings.json
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.staticwebassets.runtime.json
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.exe
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.deps.json
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.runtimeconfig.json
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.pdb
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Humanizer.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Drawing.Common.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Runtime.Caching.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Security.Permissions.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Windows.Extensions.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.AssemblyReference.cache
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.AssemblyInfoInputs.cache
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.AssemblyInfo.cs
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.CoreCompileInputs.cache
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.RazorAssemblyInfo.cache
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.RazorAssemblyInfo.cs
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/staticwebassets/msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/staticwebassets/msbuild.build.WebApplication1.props
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.WebApplication1.props
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.WebApplication1.props
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/staticwebassets.pack.json
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/scopedcss/bundle/WebApplication1.styles.css
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/scopedcss/projectbundle/WebApplication1.bundle.scp.css
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.CopyComplete
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/refint/WebApplication1.dll
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.pdb
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.genruntimeconfig.cache
+C:/Users/eleiy/OneDrive/Рабочий стол/WebApplication1/WebApplication1/obj/Debug/net6.0/ref/WebApplication1.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/appsettings.Development.json
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/appsettings.json
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.staticwebassets.runtime.json
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.deps.json
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.runtimeconfig.json
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/ref/WebApplication1.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.pdb
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Humanizer.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Drawing.Common.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Runtime.Caching.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Security.Permissions.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/System.Windows.Extensions.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.AssemblyReference.cache
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.AssemblyInfoInputs.cache
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.AssemblyInfo.cs
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.CoreCompileInputs.cache
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.RazorAssemblyInfo.cache
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.RazorAssemblyInfo.cs
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/staticwebassets.build.json
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/staticwebassets.development.json
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/scopedcss/bundle/WebApplication1.styles.css
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/scopedcss/projectbundle/WebApplication1.bundle.scp.css
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.CopyComplete
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/ref/WebApplication1.dll
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.pdb
+/mnt/d/РГРТУ/dev/Testing/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.genruntimeconfig.cache
