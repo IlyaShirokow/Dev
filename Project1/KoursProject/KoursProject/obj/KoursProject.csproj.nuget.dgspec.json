@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eleiy\\OneDrive\\Рабочий стол\\KoursProject\\KoursProject\\KoursProject.csproj": {}
+    "D:\\РГРТУ\\dev\\Project1\\KoursProject\\KoursProject\\KoursProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eleiy\\OneDrive\\Рабочий стол\\KoursProject\\KoursProject\\KoursProject.csproj": {
+    "D:\\РГРТУ\\dev\\Project1\\KoursProject\\KoursProject\\KoursProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eleiy\\OneDrive\\Рабочий стол\\KoursProject\\KoursProject\\KoursProject.csproj",
+        "projectUniqueName": "D:\\РГРТУ\\dev\\Project1\\KoursProject\\KoursProject\\KoursProject.csproj",
         "projectName": "KoursProject",
-        "projectPath": "C:\\Users\\eleiy\\OneDrive\\Рабочий стол\\KoursProject\\KoursProject\\KoursProject.csproj",
+        "projectPath": "D:\\РГРТУ\\dev\\Project1\\KoursProject\\KoursProject\\KoursProject.csproj",
         "packagesPath": "C:\\Users\\eleiy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eleiy\\OneDrive\\Рабочий стол\\KoursProject\\KoursProject\\obj\\",
+        "outputPath": "D:\\РГРТУ\\dev\\Project1\\KoursProject\\KoursProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Windows program\\Program Files(x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
