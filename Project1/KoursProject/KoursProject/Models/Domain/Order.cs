@@ -15,7 +15,6 @@
         public string Address { get; set; }
         public DateTime Data { get; set; }
         public string Email { get; set; }
-        public Guid invoiceId { get; set; }
         public Invoices? Invoices { get; set; }
 
     }
