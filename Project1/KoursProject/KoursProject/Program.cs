@@ -1,7 +1,14 @@
+using KoursProject.Data.KoursProject.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<MVCProductDbContext>(options =>
+    options.UseSqlServer(builder.Configuration
+    .GetConnectionString("MvcProductConnectionString")));
 
 var app = builder.Build();
 
