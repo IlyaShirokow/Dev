@@ -1,0 +1,31 @@
+﻿@model IList<KoursProject.Models.Domain.Organizations>
+
+@{
+}
+
+<h1>Организации</h1>
+<a type="submit" class="btn btn-primary" asp-area="" asp-controller="Organizations" asp-action="Add">Добаить запись в таблицу</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Название организации</th>
+            <th>e-mail</th>
+            <th>Номер телефона</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var organizations in Model)
+        {
+            <tr>
+                <td>@organizations.Id</td>
+                <td>@organizations.NameOrganizations</td>
+                <td>@organizations.Email</td>
+                <td>@organizations.PhoneNumber</td>
+                <td><a href="Organizations/View/@organizations.Id">Просмотреть</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

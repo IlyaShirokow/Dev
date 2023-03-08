@@ -1,0 +1,22 @@
+﻿@model KoursProject.Models.AddOrganizationsViewModel
+
+@{
+}
+
+<h1>Добавление новой организации</h1>
+<form method="post" action="Add">
+    <div class="mb-3">
+        <label for="" class="form-label">Название организации</label>
+        <input type="text" class="form-control" asp-for="NameOrganizations">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">E-mail</label>
+        <input type="email" class="form-control" asp-for="Email">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Номер телефона</label>
+        <input type="tel" pattern="[8][0-9]{10}"
+               class="form-control" asp-for="PhoneNumber">
+    </div>
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</form>
