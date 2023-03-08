@@ -1,0 +1,21 @@
+﻿@model KoursProject.Models.AddProductsViewModel
+
+@{
+}
+
+<h1>Добавление продуктов</h1>
+<form method="post" action="Add">
+    <div class="mb-3">
+        <label for="" class="form-label">Название продукта</label>
+        <input type="text" class="form-control" asp-for="Product">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Хрупкость</label>
+        <input type="text" class="form-control" asp-for="Fragility">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Размер</label>
+        <input type="text" class="form-control" asp-for="Dimension">
+    </div>
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</form>
