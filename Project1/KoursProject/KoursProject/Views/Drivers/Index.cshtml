@@ -1,0 +1,37 @@
+﻿@model IList<KoursProject.Models.Domain.Drivers>
+
+@{
+}
+
+<h1>Водители</h1>
+<a type="submit" class="btn btn-primary" asp-area="" asp-controller="Drivers" asp-action="Add">Добаить запись в таблицу</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Номер телефона</th>
+            <th>e-mail</th>
+            <th>Адрес</th>
+            <th>Дата рождения</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var driver in Model)
+        {
+            <tr>
+                <td>@driver.Id</td>
+                <td>@driver.Surname</td>
+                <td>@driver.Name</td>
+                <td>@driver.PhoneNumber</td>
+                <td>@driver.Email</td>
+                <td>@driver.Address</td>
+                <td>@driver.DateOfBirth</td>
+                <td><a href="Drivers/View/@driver.Id">Просмотреть</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

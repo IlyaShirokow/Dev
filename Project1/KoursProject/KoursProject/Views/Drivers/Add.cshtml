@@ -1,0 +1,34 @@
+﻿@model KoursProject.Models.AddDriversViewModel
+
+@{
+}
+
+<h1>Добавление водителя</h1>
+<form method="post" action="Add">
+    <div class="mb-3">
+        <label for="" class="form-label">Фамилия</label>
+        <input type="text" class="form-control" asp-for="Surname">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Имя</label>
+        <input type="text" class="form-control" asp-for="Name">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Номер телефона</label>
+        <input type="tel" pattern="[8][0-9]{10}"
+              class="form-control" asp-for="PhoneNumber">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">E-mail</label>
+        <input type="email" class="form-control" asp-for="Email">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Адрес</label>
+        <input type="text" class="form-control" asp-for="Address">
+        <div class="mb-3">
+            <label for="" class="form-label">Дата рождения</label>
+            <input type="date" class="form-control" asp-for="DateOfBirth">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</form>

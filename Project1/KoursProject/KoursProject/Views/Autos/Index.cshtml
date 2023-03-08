@@ -3,7 +3,7 @@
 @{
 }
 
-<h1>Autos</h1>
+<h1>Автомобили</h1>
 <a type="submit" class="btn btn-primary" asp-area="" asp-controller="Autos" asp-action="Add">Добаить запись в таблицу</a>
 
 <table class="table">
@@ -17,14 +17,14 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var test in Model)
+        @foreach (var auto in Model)
         {
             <tr>
-                <td>@test.Id</td>
-                <td>@test.Car</td>
-                <td>@test.Carnumber</td>
-                <td>@test.Condition</td>
-                <td><a href="Autos/View/@test.Id">Просмотреть</a></td>
+                <td>@auto.Id</td>
+                <td>@auto.Car</td>
+                <td>@auto.Carnumber</td>
+                <td>@auto.Condition</td>
+                <td><a href="Autos/View/@auto.Id">Просмотреть</a></td>
             </tr>
         }
     </tbody>
