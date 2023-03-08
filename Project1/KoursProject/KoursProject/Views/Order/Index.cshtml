@@ -1,0 +1,45 @@
+﻿@model IList<KoursProject.Models.Domain.Order>
+
+@{
+}
+
+<h1>Заказы</h1>
+<a type="submit" class="btn btn-primary" asp-area="" asp-controller="Order" asp-action="Add">Добаить запись в таблицу</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Продукты</th>
+            <th>Автомобиль</th>
+            <th>Водитель</th>
+            <th>Организация</th>
+            <th>Номер телефона</th>
+            <th>Адрес</th>
+            <th>Дата</th>
+            <th>e-mail</th>
+            <th>Тип накладной</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var order in Model)
+        {
+                <tr>
+                <td>@order.Id</td>
+                <td>@order.Products.Product)</td>
+                <td>@order.Autos.Car</td>
+                <td>@order.Drivers.Surname</td>
+                <td>@order.Organizations.NameOrganizations</td>
+                <td>@order.PhoneNumber</td>
+                <td>@order.Address</td>
+                <td>@order.Data</td>
+                <td>@order.Email</td>
+                <td>@order.Invoices.InvoiceType</td>
+
+                    <td><a href="Order/View/@order.Id">Просмотреть</a></td>
+                </tr>
+        }
+    </tbody>
+</table>

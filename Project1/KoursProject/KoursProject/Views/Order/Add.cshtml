@@ -1,0 +1,46 @@
+﻿@model KoursProject.Models.AddOrderViewModel
+
+@{
+}
+
+<h1>Добавление заказа</h1>
+<form method="post" action="Add">
+    <div class="mb-3">
+        <label for="" class="form-label">Автомобиль</label>
+        <input type="text" class="form-control" asp-for="ProductsID">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Гос. регистрационный знак</label>
+        <input type="text" class="form-control" asp-for="AutosID">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Состояние</label>
+        <input type="text" class="form-control" asp-for="DriversId">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Состояние</label>
+        <input type="text" class="form-control" asp-for="OrganizationsId">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Номер телефона</label>
+        <input type="tel" pattern="[8][0-9]{10}"
+               class="form-control" asp-for="PhoneNumber">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Состояние</label>
+        <input type="text" class="form-control" asp-for="Address">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Дата рождения</label>
+        <input type="date" class="form-control" asp-for="Data">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">E-mail</label>
+        <input type="email" class="form-control" asp-for="Email">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">E-mail</label>
+        <input type="text" class="form-control" asp-for="InvoicesId">
+    </div>
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</form>
