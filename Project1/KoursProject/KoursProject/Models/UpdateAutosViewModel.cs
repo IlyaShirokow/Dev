@@ -2,7 +2,7 @@
 {
     public class UpdateAutosViewModel
     {
-        public Guid ID { get; set; }
+        public Guid Id { get; set; }
         public string Car { get; set; }
         public string Carnumber { get; set; }
         public string Condition { get; set; }

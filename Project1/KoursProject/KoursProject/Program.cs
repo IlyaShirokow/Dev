@@ -1,4 +1,4 @@
-using KoursProject.Data.KoursProject.Data;
+using KoursProject.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 

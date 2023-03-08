@@ -2,7 +2,7 @@
 {
     public class Invoices
     {
-        public Guid ID { get; set; }
+        public Guid Id { get; set; }
         public string InvoiceType { get; set; }
 
         public string Descrption { get; set; }

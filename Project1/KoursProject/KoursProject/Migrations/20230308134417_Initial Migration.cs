@@ -13,21 +13,21 @@ namespace KoursProject.Migrations
                 name: "Autos",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Car = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Carnumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Condition = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Autos", x => x.ID);
+                    table.PrimaryKey("PK_Autos", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Drivers",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Surname = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -37,48 +37,48 @@ namespace KoursProject.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Drivers", x => x.ID);
+                    table.PrimaryKey("PK_Drivers", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Invoices",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     InvoiceType = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Descrption = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Invoices", x => x.ID);
+                    table.PrimaryKey("PK_Invoices", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Organizations",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     NameOrganizations = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Organizations", x => x.ID);
+                    table.PrimaryKey("PK_Organizations", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Products",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Product = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Fragility = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Dimension = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Products", x => x.ID);
+                    table.PrimaryKey("PK_Products", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -86,19 +86,15 @@ namespace KoursProject.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    ProductID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    ProductsID = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
-                    AutoID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    AutosID = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
-                    DriverId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    DriversID = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    ProductsID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    AutosID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    DriversId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     OrganizationsId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Data = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    invoiceId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    InvoicesID = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
+                    InvoicesId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -107,28 +103,32 @@ namespace KoursProject.Migrations
                         name: "FK_Order_Autos_AutosID",
                         column: x => x.AutosID,
                         principalTable: "Autos",
-                        principalColumn: "ID");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Order_Drivers_DriversID",
-                        column: x => x.DriversID,
+                        name: "FK_Order_Drivers_DriversId",
+                        column: x => x.DriversId,
                         principalTable: "Drivers",
-                        principalColumn: "ID");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Order_Invoices_InvoicesID",
-                        column: x => x.InvoicesID,
+                        name: "FK_Order_Invoices_InvoicesId",
+                        column: x => x.InvoicesId,
                         principalTable: "Invoices",
-                        principalColumn: "ID");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Order_Organizations_OrganizationsId",
                         column: x => x.OrganizationsId,
                         principalTable: "Organizations",
-                        principalColumn: "ID",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Order_Products_ProductsID",
                         column: x => x.ProductsID,
                         principalTable: "Products",
-                        principalColumn: "ID");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -137,14 +137,14 @@ namespace KoursProject.Migrations
                 column: "AutosID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Order_DriversID",
+                name: "IX_Order_DriversId",
                 table: "Order",
-                column: "DriversID");
+                column: "DriversId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Order_InvoicesID",
+                name: "IX_Order_InvoicesId",
                 table: "Order",
-                column: "InvoicesID");
+                column: "InvoicesId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Order_OrganizationsId",

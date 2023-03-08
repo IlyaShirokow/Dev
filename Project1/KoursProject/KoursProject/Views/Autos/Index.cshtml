@@ -4,15 +4,15 @@
 }
 
 <h1>Autos</h1>
-<a type="submit" class="btn btn-primary" asp-area="" asp-controller="Autos" asp-action="Add">Add</a>
+<a type="submit" class="btn btn-primary" asp-area="" asp-controller="Autos" asp-action="Add">Добаить запись в таблицу</a>
 
 <table class="table">
     <thead>
         <tr>
             <th>Id</th>
-            <th>Car</th>
-            <th>Carnumber</th>
-            <th>Condition</th>
+            <th>Автомобиль</th>
+            <th>Гос. регистрационный знак</th>
+            <th>Состояние</th>
             <th> </th>
         </tr>
     </thead>
@@ -20,11 +20,11 @@
         @foreach (var test in Model)
         {
             <tr>
-                <td>@test.ID</td>
+                <td>@test.Id</td>
                 <td>@test.Car</td>
                 <td>@test.Carnumber</td>
                 <td>@test.Condition</td>
-                <td><a href="Autos/View/@test.ID">View</a></td>
+                <td><a href="Autos/View/@test.Id">Просмотреть</a></td>
             </tr>
         }
     </tbody>
