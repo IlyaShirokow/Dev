@@ -26,6 +26,11 @@ namespace KoursProject.Controllers
                 .Include(rp=>rp.Invoices)
                 .ToList());
         }
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
+        }
         [HttpPost]
         public async Task<IActionResult> Add(AddOrderViewModel addOrderRequest)
         {
@@ -47,5 +52,64 @@ namespace KoursProject.Controllers
             await mvcProductDbContext.SaveChangesAsync();
             return RedirectToAction("Index");
         }
-    }
+        [HttpGet]
+        public async Task<IActionResult> View(Guid id)
+        {
+            var order = await mvcProductDbContext.Order.FirstOrDefaultAsync(x => x.Id == id);
+            if (order != null)
+            {
+                var viewModel = new UpdateOrderViewModel()
+                {
+                    Id = order.Id,
+                    ProductsID = order.ProductsID,
+                    AutosID = order.AutosID,
+                    DriversId = order.DriversId,
+                    OrganizationsId = order.OrganizationsId,
+                    PhoneNumber = order.PhoneNumber,
+                    Address = order.Address,
+                    Data = order.Data,
+                    Email = order.Email,
+                    InvoicesId = order.InvoicesId
+                };
+                return await Task.Run(() => View("View", viewModel));
+            }
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> View(UpdateOrderViewModel model)
+        {
+            var order = await mvcProductDbContext.Order.FindAsync(model.Id);
+            if (order != null)
+            {
+                order.ProductsID = model.ProductsID;
+                order.AutosID = model.AutosID;
+                order.DriversId = model.DriversId;
+                order.OrganizationsId = model.OrganizationsId;
+                order.PhoneNumber = model.PhoneNumber;
+                order.Address = model.Address;
+                order.Data = model.Data;
+                order.Email = model.Email;
+                order.InvoicesId = model.InvoicesId;
+
+                await mvcProductDbContext.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(UpdateOrderViewModel model)
+        {
+            var order = await mvcProductDbContext.Order.FindAsync(model.Id);
+
+            if (order != null)
+            {
+                mvcProductDbContext.Order.Remove(order);
+                await mvcProductDbContext.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Index");
+        }
+        }
 }

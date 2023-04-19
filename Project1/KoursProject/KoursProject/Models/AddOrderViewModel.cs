@@ -3,7 +3,7 @@
 namespace KoursProject.Models
 {
     public class AddOrderViewModel
-    { 
+    {
         public Guid ProductsID { get; set; }
         public Products? Products { get; set; }
         public Guid AutosID { get; set; }

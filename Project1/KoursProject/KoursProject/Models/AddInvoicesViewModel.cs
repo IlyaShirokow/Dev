@@ -7,6 +7,6 @@ namespace KoursProject.Models
         public string InvoiceType { get; set; }
 
         public string Descrption { get; set; }
-        //public LinkedList<Order> order { get; set; } = new();
+        public LinkedList<Order> order { get; set; } = new();
     }
 }

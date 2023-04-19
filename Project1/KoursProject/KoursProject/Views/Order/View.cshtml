@@ -1,10 +1,14 @@
-﻿@model KoursProject.Models.AddOrderViewModel
+﻿@model KoursProject.Models.UpdateOrderViewModel
 
 @{
 }
 
-<h1>Добавление заказа</h1>
-<form method="post" action="Add">
+<h1>Изменить заказ</h1>
+<form method="post" action="View">
+    <div class="mb-3">
+        <label for="" class="form-label">Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly>
+    </div>
     <div class="mb-3">
         <label for="" class="form-label">Продукт</label>
         <input type="text" class="form-control" asp-for="ProductsID">
@@ -43,4 +47,10 @@
         <input type="text" class="form-control" asp-for="InvoicesId">
     </div>
     <button type="submit" class="btn btn-primary">Сохранить</button>
+
+    <button type="submit" class="btn btn-danger"
+            asp-action="Delete"
+            asp-controller="Order">
+        Удалить
+    </button>
 </form>

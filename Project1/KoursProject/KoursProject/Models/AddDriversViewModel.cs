@@ -15,6 +15,6 @@ namespace KoursProject.Models
         public string Address { get; set; }
 
         public DateTime DateOfBirth { get; set; }
-       // public LinkedList<Order> orders { get; set; } = new();
+        public LinkedList<Order> orders { get; set; } = new();
     }
 }
