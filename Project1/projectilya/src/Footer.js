@@ -23,14 +23,14 @@ const Footer = () => (
                         <div className="col-md-3 mb-md-0 mb-3">
                             <h5 className="text-uppercase">Помощь</h5>
                             <ul className="list-unstyled">
-                                <li><a href="https://vk.com/san1xx">Возникли трудности?</a></li>
+                                <li><a href="https://vk.com/ilya_shirokow">Возникли трудности?</a></li>
                             </ul>
                         </div>
 
                         <div className="col-md-3 mb-md-0 mb-3">
                             <h5 className="text-uppercase">Написать владельцу</h5>
                             <ul className="list-unstyled">
-                                <li><a href="https://vk.com/san1xx">Вконтакте</a></li>
+                                <li><a href="https://vk.com/ilya_shirokow">Вконтакте</a></li>
                             </ul>
                         </div>
 
