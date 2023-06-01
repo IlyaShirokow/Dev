@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gPpbveNOfJtzF91Y39IDzL6EJQOB26ekXMS1G575h8M3j5k5l03Ka6tgCKl8+OUmVQaLRvU6U6tj35jknLWCAg==",
+  "dgSpecHash": "FrhEfOpuc4ZUjvcTgYxLRDRWgtQQTrGz1eUr4/ipKYQnG/k2mwf+ORGyQDxyylwFOcWbfzsKWfskw39ovDKdjA==",
   "success": true,
-  "projectFilePath": "D:\\РГРТУ\\dev\\Project1\\KoursProject\\KoursProject\\KoursProject.csproj",
+  "projectFilePath": "D:\\РГРТУ\\dev\\v2\\KoursProject\\KoursProject\\KoursProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eleiy\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\eleiy\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

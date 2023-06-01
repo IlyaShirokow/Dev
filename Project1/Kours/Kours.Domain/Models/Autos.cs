@@ -8,6 +8,6 @@ namespace Kours.Domain
         public string Car { get; set; }
         public string Carnumber { get; set; }
         public string Condition { get; set; }
-        public LinkedList<Order> orders { get; set; } = new();
+        //public LinkedList<Order> orders { get; set; } = new();
     }
 }

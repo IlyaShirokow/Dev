@@ -11,15 +11,14 @@ static displayName = Form1.name;
 
         super(props);
         this.state = {
-            email :'',
             phone : '',
-            nameorg:'',
-            Id :''
+            address:'',
+            email :''
         }
 
        
         this.onInputChange = this.onInputChange.bind(this);
-        this.sendOrganizationsData = this.sendOrganizationsData.bind(this);
+        this.sendOrderData = this.sendOrderData.bind(this);
 
     }
 
@@ -39,24 +38,21 @@ static displayName = Form1.name;
             
 
             <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputName">Почта</label>
-                    <input type="Text" name="email" class="form-control" id="inputFIO" placeholder="" />
-                    
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="inputPassword4">ID</label>
-                    <input name="Id" class="form-control" id="inputPhone" />
-                </div>
+                
                 <div class="form-group col-md-6">
                     <label for="inputPassword4">Телефон</label>
-                    <input name="phone" class="form-control" id="inputPhone" />
+                    <input name="phone" class="form-control" id="phone" value={this.state.phone} onChange={this.onInputChange}/>
                 </div>
             </div>
             <div class="form-group col-md-6">
-                <label for="inputAddress">Название организации</label>
-                <input type="text" name="nameorg" class="form-control" id="inputAddress"  />
+                <label for="inputAddress">Адрес</label>
+                <input type="text" name="address" class="form-control" id="address"  value={this.state.address} onChange={this.onInputChange}/>
             </div>
+            <div class="form-group col-md-6">
+                    <label for="inputName">Почта</label>
+                    <input type="Text" name="email" class="form-control" id="email" placeholder="" value={this.state.email} onChange={this.onInputChange}/>
+                    
+                </div>
             <div class="form-row">
                 <div class="form-group col-md-4">
                     <label for="inputProduct">Продукт</label>
@@ -71,11 +67,46 @@ static displayName = Form1.name;
                         
                     </select>
                 </div>
-
+                <div class="form-group col-md-4">
+                    <label for="inputProduct">авто</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Выбрать</option>
+                        <option>Газель </option>
+                        <option>Хёндай</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputProduct">Водитель</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Выбрать</option>
+                        <option>Саватеев А.В </option>
+                        <option>Захаров Д.А.</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputProduct">Организация</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Выбрать</option>
+                        <option>Пятёрочка </option>
+                        <option>Магнит</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputProduct">Накладная</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Выбрать</option>
+                        <option>Большая </option>
+                        <option>Маленькая</option>
+                        
+                    </select>
+                </div>
             </div>
             
 
-            <button  type="submit" class="f-button f-button - warning" >Продолжить</button>
+            <button  type="submit" class="f-button f-button - warning" onClick={this.sendOrderData}>Продолжить</button>
 
         </Form>
         </>
@@ -83,27 +114,26 @@ static displayName = Form1.name;
         );
     }  
     
-    async sendOrganizationsData() {
-        let Organizations = {
-            "Guid Id": this.state.Id,
-            "NameOrganizations": this.state.nameorg,
-            " Email ": this.state.email,
+    async sendOrderData() {
+        let Order = {
+            "Address": this.state.address,
+            "Email": this.state.email,
             "PhoneNumber": this.state.phone
             
         };
-        console.log(Organizations);
+        console.log(Order);
 
-        const reponse = await fetch('https://localhost:7166/Organizations/create', {
+        const reponse = await fetch('https://localhost:7024/api/Domain/Order', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
                 
             },
-            body: JSON.stringify(Organizations)
+            body: JSON.stringify(Order)
         });
 
         const data = await reponse.json();
-        console.log(data);
+
         
  }  
 

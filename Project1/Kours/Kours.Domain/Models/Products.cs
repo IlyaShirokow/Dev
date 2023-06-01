@@ -11,6 +11,6 @@ namespace Kours.Domain
         public string Fragility { get; set; }
 
         public string Dimension { get; set; }
-        public LinkedList<Order> order { get; set; } = new();
+       // public LinkedList<Order> order { get; set; } = new();
     }
 }

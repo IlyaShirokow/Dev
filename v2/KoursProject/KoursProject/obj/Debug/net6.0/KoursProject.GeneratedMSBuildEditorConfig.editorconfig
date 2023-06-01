@@ -9,109 +9,109 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KoursProject
 build_property.RootNamespace = KoursProject
-build_property.ProjectDir = D:\РГРТУ\dev\Project1\KoursProject\KoursProject\
+build_property.ProjectDir = D:\РГРТУ\dev\v2\KoursProject\KoursProject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\РГРТУ\dev\Project1\KoursProject\KoursProject
+build_property.MSBuildProjectDirectory = D:\РГРТУ\dev\v2\KoursProject\KoursProject
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Autos/Add.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Autos/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3NcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Autos/Index.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Autos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Autos/View.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Autos/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3NcVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Drivers/Add.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Drivers/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyc1xBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Drivers/Index.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Drivers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Drivers/View.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Drivers/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyc1xWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Home/Index.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Home/Privacy.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Invoices/Add.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Invoices/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Invoices/Index.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Invoices/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Invoices/View.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Invoices/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Order/Add.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Order/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Order/Index.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Order/View.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Order/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Organizations/Add.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Organizations/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uc1xBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Organizations/Index.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Organizations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Organizations/View.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Organizations/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uc1xWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Products/Add.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Products/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Products/Index.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Products/View.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Products/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Shared/Error.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/_ViewImports.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/_ViewStart.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/РГРТУ/dev/Project1/KoursProject/KoursProject/Views/Shared/_Layout.cshtml]
+[D:/РГРТУ/dev/v2/KoursProject/KoursProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z60kn46wop

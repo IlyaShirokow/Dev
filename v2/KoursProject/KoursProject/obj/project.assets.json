@@ -10450,11 +10450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\РГРТУ\\dev\\Project1\\KoursProject\\KoursProject\\KoursProject.csproj",
+      "projectUniqueName": "D:\\РГРТУ\\dev\\v2\\KoursProject\\KoursProject\\KoursProject.csproj",
       "projectName": "KoursProject",
-      "projectPath": "D:\\РГРТУ\\dev\\Project1\\KoursProject\\KoursProject\\KoursProject.csproj",
+      "projectPath": "D:\\РГРТУ\\dev\\v2\\KoursProject\\KoursProject\\KoursProject.csproj",
       "packagesPath": "C:\\Users\\eleiy\\.nuget\\packages\\",
-      "outputPath": "D:\\РГРТУ\\dev\\Project1\\KoursProject\\KoursProject\\obj\\",
+      "outputPath": "D:\\РГРТУ\\dev\\v2\\KoursProject\\KoursProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Windows program\\Program Files(x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
